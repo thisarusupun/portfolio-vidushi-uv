@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-[#001139] via-[#001139] to-[#05174D]"
+      className="min-h-screen h-auto w-full bg-gradient-to-b from-[#001139] via-[#001139] to-[#05174D] pb-2 pt-20"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full  text-[#A7F0FD] md:flex-row">
-        <div className="flex flex-col justify-center h-fit mt-28">
+        <div className="text-center flex flex-col justify-center h-fit mt">
           <img
             src={Logo}
             alt=""
@@ -40,7 +40,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="Profile pic"
-            className="w-68 h-auto md:w-96 md:h-auto rounded-lg hidden md:block"
+            className="w-40 h-auto md:w-96 md:h-auto rounded-lg md:block"
           />
         </div>
       </div>

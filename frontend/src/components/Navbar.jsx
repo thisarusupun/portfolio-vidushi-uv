@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -41,7 +42,7 @@ const Navbar = () => {
       id: 1,
       child: (
         <>
-          <TiSocialFacebookCircular />
+          <FaFacebookSquare />
         </>
       ),
       href: "https://www.facebook.com/profile.php?id=100082492470492&mibextid=ZbWKwL",

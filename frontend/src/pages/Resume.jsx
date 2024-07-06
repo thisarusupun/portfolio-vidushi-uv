@@ -16,11 +16,11 @@ const Resume = () => {
   return (
     <div
       name="resume"
-      className="bg-gradient-to-b from-[#001139] via-[#001139] to-[#05174D] w-full h-auto text-white "
+      className="bg-gradient-to-b from-[#001139] via-[#001139] to-[#05174D] w-full h-auto text-white pt-20 pb-4"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full min-h-screen md:min-h-screen">
+      <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full min-h-screen md:min-h-screen">
         <div className="pb-8">
-          <p className="font-sans text-[#A7F0FD] text-center mt-10 text-sm">
+          <p className="font-sans text-[#A7F0FD] text-center pt-2 text-sm">
             Resume
           </p>
           <p className="text-[#A7F0FD] text-center text-4xl font-thin py-6">
@@ -179,9 +179,9 @@ const Resume = () => {
         </div>
         <button
           onClick={onButtonClick}
-          className="bg-[#001139] px-6 py-3 my-8 mx-auto flex items-center hover:scale-105 duration-200 font-bold"
+          className="bg-[#001139] px-6 py-1 my-8 mx-auto flex flex-col items-center hover:scale-105 duration-200 font-bold"
         >
-          Download <span className="font-thin"> My Resume</span>{" "}
+          <p>Download</p> <p className="font-thin"> My Resume</p>{" "}
         </button>
       </div>
     </div>

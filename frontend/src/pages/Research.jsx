@@ -21,8 +21,8 @@ const Research = () => {
         {/* Left Column */}
         <div className="flex mt-20 md:flex-wrap ">
           <div className="w-full md:w-1/12 pr-4">
-            <div className="">
-              <p className=" h-14 bg-black text-center items-center font-bold text-[25px] text-white">
+            <div className="flex justify-center items-center text-center">
+              <p className="flex items-center justify-center h-14 w-14 bg-black font-bold text-[25px] text-white">
                 01.
               </p>
             </div>

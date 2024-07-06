@@ -4,11 +4,11 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full min-h-screen md:min-h-screen bg-gradient-to-b from-[#001139] via-[#001139] to-[#05174D] text-stone-200 "
+      className="w-full min-h-screen md:min-h-screen bg-gradient-to-b from-[#001139] via-[#001139] to-[#05174D] text-stone-200 pt-20 pb-4"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col  w-full min-h-screen">
+      <div className="max-w-screen-lg px-4 mx-auto flex flex-col  w-full min-h-screen">
         <div>
-          <p className="font-sans text-[#A7F0FD] text-center mt-10 text-sm">
+          <p className="font-sans text-[#A7F0FD] text-center pt-2 text-sm">
             About Me
           </p>
           <p className=" text-[#A7F0FD] text-center text-4xl font-thin py-6">
@@ -19,7 +19,7 @@ const About = () => {
         {/* Left Column */}
         <div className="flex mt20 ">
           <div className="sm:w-2/3 pr-4">
-            <p className="text-4xl font-light mt-20 text-stone-200">
+            <p className="text-4xl font-light mt-4 text-stone-200">
               Hello I'm{" "}
               <span className="text-white font-medium">
                 Udeshi Harshani Bandara
@@ -59,28 +59,28 @@ const About = () => {
         {/* <div className="flex justify-between mt-10 flex-wrap justify-content-center"> */}
         <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 ">
           {/* Email Card */}
-          <div className="w-full rounded-md bg-black p-4 mr-4 text-left">
+          <div className="w-full rounded-md bg-blue-950 p-4 mr-4 text-left">
             <p className="font-bold text-md  text-white">Email</p>
             <p className="font-normal text-sm text-stone-200">
               ebbandara199@gmail.com
             </p>
           </div>
           {/* Mobile Card */}
-          <div className="w-full rounded-md bg-black p-4 mr-4 text-left ">
+          <div className="w-full rounded-md bg-blue-950 p-4 mr-4 text-left ">
             <p className="font-bold text-md text-white">Mobile</p>
             <p className="font-normal text-sm text-stone-200">
               +94710941329/+94767998070
             </p>
           </div>
           {/* DOB Card */}
-          <div className="w-full  rounded-md bg-black p-4 mr-4 text-left ">
+          <div className="w-full  rounded-md bg-blue-950 p-4 mr-4 text-left ">
             <p className="font-bold text-md text-white">Date of Birth</p>
             <p className="font-normal text-sm text-stone-200">
               15th March, 1995
             </p>
           </div>
           {/* From Card */}
-          <div className="w-full  rounded-md bg-black p-4 mr-4 text-left ">
+          <div className="w-full  rounded-md bg-blue-950 p-4 mr-4 text-left ">
             <p className="font-bold text-md text-white">From</p>
             <p className="font-normal text-sm text-stone-200">
               Kandy, Sri Lanka

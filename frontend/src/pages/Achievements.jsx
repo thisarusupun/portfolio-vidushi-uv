@@ -44,11 +44,11 @@ const Achievements = () => {
   return (
     <div
       name="Achievements"
-      className="bg-gradient-to-b from-[#001139] via-[#001139] to-[#05174D] w-full h-auto text-white "
+      className="bg-gradient-to-b from-[#001139] via-[#001139] to-[#05174D] w-full h-auto text-white pt-20"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full min-h-screen md:min-h-screen">
+      <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full min-h-screen md:min-h-screen">
         <div className="pb-8">
-          <p className="font-sans text-[#A7F0FD] text-center mt-10 text-sm">
+          <p className="font-sans text-[#A7F0FD] text-center pt-2 text-sm">
             Achievements
           </p>
           <p className="text-[#A7F0FD] text-center text-4xl font-thin py-6">
@@ -60,12 +60,12 @@ const Achievements = () => {
           {achievements.map(({ id, src, desc }) => (
             <div
               key={id}
-              className="shadow-md shadow-gray-600 rounded-lg overflow-hidden"
+              className="shadow-sm hover:shadow-md shadow-gray-600 hover:shadow-gray-600 rounded-lg overflow-hidden duration-200 hover:scale-105"
             >
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-150 w-full h-40 object-cover"
+                className="rounded-md  w-full h-40 object-cover"
               />
               <div className="flex items-center justify-center py-2 px-4">
                 <p className="font-xl font-thin">{desc}</p>
