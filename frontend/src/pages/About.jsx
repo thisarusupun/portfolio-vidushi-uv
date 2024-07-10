@@ -27,27 +27,31 @@ const About = () => {
             </p>
             <p className="mt-3 font-light leading-relaxed text-justify">
               I excelled in my 13-year high school education, specializing in
-              biology <br /> scheme and continued to pursue a double major in
-              chemistry and <br /> physics during the undergraduate degree. I
-              conducted <br /> groundbreaking research leading to a published
-              papers, <br /> international conferences and presentations.
-              Currently working on <br />
+              biology scheme and continued to pursue a double major in chemistry
+              and physics during the undergraduate degree. I conducted
+              groundbreaking research leading to a published papers,
+              international conferences and presentations. Currently working on
               the research part and already completed the theoretical part in
-              MSc <br /> of Applied Organic Chemistry. I have over 5 years of
-              experience in <br />
-              statistical analysis and research and development. With 8 years of{" "}
-              <br />
-              reaching and lecturing experiences from high school to <br />{" "}
-              postgraduate levels students all over the world. Specially my goal
-              is <br />
-              to drive innovation and contribute to research and development{" "}
-              <br /> as a scientist.
-            </p>{" "}
+              MSc of Applied Organic Chemistry. I have over 5 years of
+              experience in statistical analysis and research and development.
+              With 8 years of reaching and lecturing experiences from high
+              school to postgraduate levels students all over the world.
+              Specially my goal is to drive innovation and contribute to
+              research and development as a scientist.
+            </p>
+
+            <br />
+            <div className="flex gap-2 items-center justify-center">
+              <h1 className="text-3xl font-bold sm:hidden"> 10+</h1>
+
+              <h1 className="text-xl sm:hidden"> Years of Experience</h1>
+            </div>
+
             <br />
           </div>
           {/* Right Column stuff (10+ years of Experience)*/}
           <div className="w-1/3 pl-4 rounded-md items-center justify-center hidden sm:block ">
-            <p className="mt-60 text-[150px] font-medium text-white text-center leading-10">
+            <p className="mt-36 text-[150px] font-medium text-white text-center leading-10">
               10+{" "}
               <span className="font-normal text-sm text-stone-200">
                 Years of Experience

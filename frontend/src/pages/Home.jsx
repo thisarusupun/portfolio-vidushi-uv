@@ -13,7 +13,7 @@ const Home = () => {
           <img
             src={Logo}
             alt=""
-            className="font w-60 h-auto md:w-72 md:h-auto rounded-lg"
+            className="font w-full h-auto md:w-72 md:h-auto rounded-lg"
           />{" "}
           {/*Name Image */}
           <h3 className="text-6xl sm:text-7xl text-[#A7F0FD] font-thin">
@@ -40,7 +40,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="Profile pic"
-            className="w-40 h-auto md:w-96 md:h-auto rounded-lg md:block"
+            className="w-60 h-auto md:w-96 md:h-auto rounded-lg md:block"
           />
         </div>
       </div>

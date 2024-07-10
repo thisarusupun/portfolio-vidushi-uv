@@ -20,8 +20,8 @@ let transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
   port: 587,
   auth: {
-    user: "mr.decemberdevil@gmail.com", // This email is belong to (H.D shashika kavinda) & please use differnt email address to send message
-    pass: "uvza wcsp teak jepf", // this pass code also provided for testing purposes
+    user: "ushihar88@gmail.com", // This email is belong to (H.D shashika kavinda) & please use differnt email address to send message
+    pass: "beso xcfn sktg sxbx", // this pass code also provided for testing purposes
   },
 });
 
@@ -35,7 +35,7 @@ app.post("/msg", async (req, res) => {
   try {
     let mail = {
       from: `${data.name}`,
-      to: `shashigakavinda@gmail.com`, // change with your receiver email (ebbandara199@gmail.com)
+      to: `ebbandara199@gmail.com`,
       subject: `${data.subject}`,
       text: `contact us ${data.email} .`,
       html: ` <div style="font-family: 'Poppins', sans-serif; background-color: #f9f9f9; padding: 20px;">
